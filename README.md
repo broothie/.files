@@ -3,5 +3,5 @@
 ## Installation
 
 ```shell
-curl https://raw.githubusercontent.com/broothie/.files/master/install.sh | bash
+curl https://raw.githubusercontent.com/broothie/.files/main/install.sh | bash
 ```
