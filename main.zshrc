@@ -2,7 +2,6 @@
 export EDITOR=code
 
 ### PATH ###
-mkdir -p "$HOME/bin"
 export PATH=$PATH:$HOME/bin
 
 ### Enhancements ###

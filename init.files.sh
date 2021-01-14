@@ -2,10 +2,8 @@
 set -e
 
 for filename in $(ls -A $HOME/.files/home); do
-  ln -s "$HOME/.files/home/$filename" "$HOME/$filename"
+  ln -svf "$HOME/.files/home/$filename" "$HOME/$filename"
 done
-
-mkdir -p "$HOME/bin"
 
 if ! grep main.zshrc $HOME/.zshrc; then
   sed -i .bak '1i\
@@ -14,4 +12,5 @@ if ! grep main.zshrc $HOME/.zshrc; then
   ' "$HOME/.zshrc"
 fi
 
-ln -s "$HOME/.files/dotfiles" "$HOME/bin/dotfiles"
+mkdir -p "$HOME/bin"
+ln -svf "$HOME/.files/dotfiles" "$HOME/bin/dotfiles"
