@@ -4,7 +4,6 @@ export EDITOR=code
 ### PATH ###
 mkdir -p "$HOME/bin"
 export PATH=$PATH:$HOME/bin
-export PATH=$PATH:$HOME/.files
 
 ### Enhancements ###
 

@@ -11,3 +11,5 @@ if ! grep main.zshrc $HOME/.zshrc; then
 
   ' "$HOME/.zshrc"
 fi
+
+ln -s "$HOME/.files/dotfiles" "$HOME/bin/dotfiles"
