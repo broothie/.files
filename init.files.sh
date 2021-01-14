@@ -6,7 +6,7 @@ done
 mkdir -p "$HOME/bin"
 
 if ! grep main.zshrc $HOME/.zshrc; then
-  sed -i '1i\
+  sed -i .bak '1i\
   source "$HOME/.files/main.zshrc"
 
   ' "$HOME/.zshrc"
