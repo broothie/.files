@@ -1,0 +1,8 @@
+#! /bin/zsh
+
+if [[ -z "$1" ]]; then
+  echo 'no sub command provided; try 'install', 'init', or 'push''
+  exit 1
+fi
+
+zsh "$HOME/.files/$1.files.sh"

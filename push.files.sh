@@ -1,5 +1,6 @@
 
 cd "$HOME/.files"
 
-git commit -am "${1:-updates}"
+git add -A
+git commit -m "${1:-updates}"
 git push
