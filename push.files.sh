@@ -1,6 +1,5 @@
 
-command="${1:-updates}"
+cd "$HOME/.files"
 
-git --git-dir "$HOME/.files/.git" add "$HOME/.files"
-git --git-dir "$HOME/.files/.git" commit -m "$command"
-git --git-dir "$HOME/.files/.git" push
+git commit -am "${1:-updates}"
+git push

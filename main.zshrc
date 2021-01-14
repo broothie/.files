@@ -44,10 +44,6 @@ export GIT_PS1_SHOWDIRTYSTATE=true
 export PS1='%F{blue}%D %*%f %F{cyan}%1~%f%F{yellow}$(__git_ps1)%f
 %(?.%F{green}.%F{red})➤%f '
 
-### Machine ###
-touch "$HOME/.files/machine.zshrc"
-source "$HOME/.files/machine.zshrc"
-
 ### Syntax highlighting ###
 # Must go last
 source "$HOME/.files/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
