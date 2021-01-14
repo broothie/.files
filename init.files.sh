@@ -1,4 +1,6 @@
 
+set -e
+
 for filename in $(ls -A $HOME/.files/home); do
   ln -s "$HOME/.files/home/$filename" "$HOME/$filename"
 done

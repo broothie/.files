@@ -1,4 +1,6 @@
 
+set -e
+
 cd "$HOME/.files"
 
 git add -A
