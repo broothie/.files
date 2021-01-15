@@ -1,0 +1,6 @@
+#! /bin/zsh
+set +e
+
+cd "$HOME/.files"
+
+git status

@@ -8,6 +8,7 @@ export PATH=$PATH:$HOME/bin
 
 # z jump
 source "$HOME/.files/.zsh/z.sh"
+source "$HOME/.files/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh"
 
 # ls/exa
 if [ ! -z "$(which exa)" ]; then
@@ -24,7 +25,7 @@ dockspace() {
 # Shortcuts
 alias spot="spotify"
 alias chrome="open /Applications/Google\ Chrome.app"
-alias zshedit="$EDITOR $HOME/.files/*.zshrc"
+alias zshedit="$EDITOR $HOME/.files"
 alias zshsrc="source $HOME/.zshrc"
 
 # Completion
