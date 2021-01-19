@@ -1,5 +1,5 @@
 ### Environment ###
-export EDITOR=code
+export EDITOR=vim
 
 ### PATH ###
 export PATH=$PATH:$HOME/bin
