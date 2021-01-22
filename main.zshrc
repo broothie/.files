@@ -6,6 +6,9 @@ export PATH=$PATH:$HOME/bin
 
 ### Enhancements ###
 
+# Case insensitive tab completion
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+
 # z jump
 source "$HOME/.files/.zsh/z.sh"
 source "$HOME/.files/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh"
