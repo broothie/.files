@@ -1,0 +1,8 @@
+#! /bin/zsh
+set +e
+
+cd "$HOME/.files"
+
+$(code ./)
+$(code ./main.zshrc)
+$(code "$HOME/.zshrc")

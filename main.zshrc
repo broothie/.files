@@ -15,7 +15,7 @@ source "$HOME/.files/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh"
 
 # ls/exa
 if [ ! -z "$(which exa)" ]; then
-  alias ls="exa --header --git"
+  alias ls="exa -h"
 else
   alias ls="ls -hF"
 fi
@@ -28,8 +28,6 @@ dockspace() {
 # Shortcuts
 alias spot="spotify"
 alias chrome="open /Applications/Google\ Chrome.app"
-alias zshedit="$EDITOR $HOME/.files"
-alias zshsrc="source $HOME/.zshrc"
 
 # Completion
 zstyle ':completion:*:*:git:*' script "$HOME/.files/.zsh/git-completion.bash" # bash completion; needed for git completion
